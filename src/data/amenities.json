@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Public Water Fountain - Gate 1",
+        "type": "Hydration Station",
+        "shade": "Covered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.9815, 15.2805]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Botanical Shaded Canopy",
+        "type": "Cooling Shelter",
+        "shade": "Natural Canopy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.9720, 15.2850]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Civic Transit Rest Area",
+        "type": "Hydration & Rest",
+        "shade": "Solar Roof Kiosk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [73.9880, 15.2870]
+      }
+    }
+  ]
+}

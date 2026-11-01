@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HeatPulse | Urban Heat & Cool-Corridor Navigator</title>
+    <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+    <script type="module" crossorigin src="/assets/index-BnvWmuOM.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DrnxKDnB.css">
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <!-- Glassmorphic Header & Filter HUD -->
+    <header class="hud-panel top-panel">
+      <div class="brand">
+        <div class="status-indicator"></div>
+        <h1>HeatPulse <span class="tag">AWS Location</span></h1>
+      </div>
+      <p class="subtitle">Pedestrian Climate-Resilience & Cool-Corridor Routing</p>
+      
+      <div class="layer-controls">
+        <label class="toggle-pill">
+          <input type="checkbox" id="toggle-heat" checked />
+          <span>Thermal Exposure Zones</span>
+        </label>
+        <label class="toggle-pill">
+          <input type="checkbox" id="toggle-amenities" checked />
+          <span>Hydration & Shade Hubs</span>
+        </label>
+      </div>
+    </header>
+
+    <!-- Route Planner HUD -->
+    <aside class="hud-panel route-panel">
+      <h2>Route Evaluation</h2>
+      <p class="instruction">Click anywhere on the map to set a <strong>Start (A)</strong> and <strong>Destination (B)</strong> point.</p>
+      
+      <div class="route-metrics" id="route-metrics" style="display: none;">
+        <div class="metric-card standard">
+          <span class="label">Direct Route</span>
+          <span class="val" id="direct-dist">--</span>
+          <span class="desc">High sun exposure along major roadways</span>
+        </div>
+        <div class="metric-card cool">
+          <span class="label">Cool Corridor</span>
+          <span class="val" id="cool-dist">--</span>
+          <span class="highlight">~35% lower heat stress</span>
+        </div>
+      </div>
+
+      <div class="panel-actions">
+        <button id="btn-sample-route" class="btn primary">Load Sample Comparison</button>
+        <button id="btn-clear-route" class="btn secondary">Reset</button>
+      </div>
+    </aside>
+
+  </body>
+</html>

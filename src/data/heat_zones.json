@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_name": "Commercial Transit Hub",
+        "temp_c": 36.8,
+        "risk_level": "High Exposure",
+        "fill_color": "#ef4444"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.9780, 15.2780],
+            [73.9850, 15.2780],
+            [73.9850, 15.2840],
+            [73.9780, 15.2840],
+            [73.9780, 15.2780]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_name": "Municipal Park & Tree Canopy",
+        "temp_c": 29.4,
+        "risk_level": "Cool Oasis",
+        "fill_color": "#10b981"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.9680, 15.2820],
+            [73.9760, 15.2820],
+            [73.9760, 15.2890],
+            [73.9680, 15.2890],
+            [73.9680, 15.2820]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_name": "Mixed Residential Asphalt Zone",
+        "temp_c": 33.5,
+        "risk_level": "Moderate",
+        "fill_color": "#f59e0b"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.9860, 15.2850],
+            [73.9930, 15.2850],
+            [73.9930, 15.2910],
+            [73.9860, 15.2910],
+            [73.9860, 15.2850]
+          ]
+        ]
+      }
+    }
+  ]
+}
